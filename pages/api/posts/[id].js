@@ -1,6 +1,6 @@
 import {posts} from '../../../posts'
 
-export default function handler(req,res) {
+export default function handlerApi(req,res) {
     let id = req.query.id;
 
     let post = posts.find(p => p.id == id)
