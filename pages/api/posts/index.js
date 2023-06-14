@@ -2,7 +2,7 @@
 
 import {posts} from '../../../posts'
 
-export default function posts(req, res) {
+export default function postsAll(req, res) {
 
     res.status(200).json(posts)
 }
